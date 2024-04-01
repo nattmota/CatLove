@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  http-equiv="X-UA-Compatible" content="id=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Responsivity</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul class="sidebar">
+                <li onclick=closeSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#">CatsLove</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Gatos</a></li>
+                <li><a href="#">Usuário</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">CatsLove</a></li>
+                <li class="hideOnMobile"><a href="#">Blog</a></li>
+                <li class="hideOnMobile"><a href="#">Gatos</a></li>
+                <li class="hideOnMobile"><a href="#">Usuário</a></li>
+                <li class="hideOnMobile"><a href="#">Login</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>       
+    </header>
+    <main>
+        <div id="main-top-container">          
+            <h1>Você verá várias fotos de gatinhos aqui!</h1>                     
+        </div>
+        <div id="img-column">
+            <img src="https://source.unsplash.com/gato-dormindo-na-cama-pdALzg0yN-8" alt="">
+            <img src="https://source.unsplash.com/gatinho-marrom-tabby-sentado-no-chao-nKC772R_qog" alt="">
+            <img src="https://source.unsplash.com/gato-tabby-marrom-7GX5aICb5i4" alt="">
+            <img src="https://source.unsplash.com/um-gato-sentado-no-chao-atras-de-um-portao-T0JDIRtZubw" alt="">
+            <img src="https://source.unsplash.com/gato-tabby-cinza-e-marrom-PAcT-amBgr4" alt="">
+            <img src="https://source.unsplash.com/uma-pessoa-segurando-um-gatinho-branco-nos-bracos-gBkyQdwBadw" alt="">
+            <img src="https://source.unsplash.com/" alt="">
+            <img src="https://source.unsplash.com/" alt="">
+        </div>
+    </main>
+    <footer>
+        <div id="main-bottom-container">
+            <h3>Todos os direitos reservados a CatLove </h3>
+        </div>
+    </footer>
+    <script src="./js/nav-bar.js"></script>    
+</body>
+</html>
